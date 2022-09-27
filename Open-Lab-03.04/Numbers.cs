@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_03._04
 {
@@ -6,7 +6,16 @@ namespace Open_Lab_03._04
     {
         public string EvenOrOdd(int number)
         {
-            throw new NotImplementedException();
+            string even = "even";
+            string odd = "odd";
+           if(number %2 == 0)
+            {
+                return even;
+            }
+            else
+            {
+                return odd;
+            }
         }
     }
 }
